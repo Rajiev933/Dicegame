@@ -3,7 +3,7 @@ randomNumber1 = randomNumber1 * 6+1;
 randomNumber1 = Math.floor(randomNumber1);
 console.log(randomNumber1);
 
-var imgPath1 = "./images/dice" + randomNumber1 +".png";
+var imgPath1 = "./image/dice" + randomNumber1 +".png";
 
 document.getElementById("img1").src=imgPath1;
 
@@ -12,7 +12,7 @@ randomNumber2 = randomNumber2 * 6+1;
 randomNumber2 = Math.floor(randomNumber2);
 console.log(randomNumber2);
 
-var imgPath2 = "./images/dice" + randomNumber2 +".png";
+var imgPath2 = "./image/dice" + randomNumber2 +".png";
 
 document.getElementById("img2").src=imgPath2;
 
